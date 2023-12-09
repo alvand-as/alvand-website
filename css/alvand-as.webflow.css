@@ -1,0 +1,63 @@
+.section {
+  height: 100vh;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: stretch;
+  display: flex;
+}
+
+.quick-stack {
+  grid-row-gap: 20px;
+}
+
+.div-block {
+  height: 90vh;
+  align-items: center;
+  padding-left: 60px;
+  padding-right: 60px;
+  display: flex;
+}
+
+.heading {
+  color: #838383;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Noto Sans, Ubuntu, Cantarell, Helvetica Neue, Oxygen, Fira Sans, Droid Sans, sans-serif;
+  font-size: 12px;
+  font-weight: 300;
+}
+
+.div-block-2 {
+  padding: 10px 60px;
+}
+
+.heading-2 {
+  font-size: 100px;
+  line-height: 100px;
+}
+
+.heading-3 {
+  color: #fff;
+  font-size: 80px;
+  line-height: 80px;
+}
+
+@media screen and (max-width: 479px) {
+  .div-block {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .heading {
+    font-size: 8px;
+    line-height: 8px;
+  }
+
+  .div-block-2 {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .heading-3 {
+    font-size: 30px;
+    line-height: 30px;
+  }
+}
